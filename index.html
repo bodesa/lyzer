@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Portfolio</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="theme-options">
+                    <label class="theme-switch">
+                        <input type="checkbox" id="theme-toggle">
+                        <span class="slider"></span>
+                    </label>
+                    <div class="color-buttons">
+                        <div class="color-btn blue" data-color="#4361ee"></div>
+                        <div class="color-btn purple" data-color="#7209b7"></div>
+                        <div class="color-btn green" data-color="#2a9d8f"></div>
+                        <div class="color-btn orange" data-color="#F87060"></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="circle-bg circle-1"></div>
+        <div class="circle-bg circle-2"></div>
+        <div class="circle-bg circle-3"></div>
+        <div class="circle-bg circle-4"></div>
+
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hello, I'm <span>lyzer mark bodesa</span></h1>
+                    <p>I'm a web digital designer and a student passionate about creating visually stunning and user-friendly websites. With skills in Python, CSS, JavaScript, and various frameworks, I bring creative ideas to life through clean and efficient code.</p>
+                    <a href="#contact" class="cta-btn">Get In Touch</a>
+                </div>
+                <div class="hero-image">
+                    <img src="2k.jpeg" alt="Profile Image" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="aboutme.jpeg" alt="About Image">
+                </div>
+                <div class="about-text">
+                    <h3>I'm a Web Developer Based in the Philippines</h3>
+                    <p>As a student and digital designer, I have been developing websites and applications for over a year, combining creativity with functionality to deliver real solutions.</p>
+                    <p>I focus on designing intuitive, user-friendly experiences that are both visually appealing and highly functional, ensuring every project meets modern web standards</p>
+                    <div class="skills">
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>HTML/CSS</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>JavaScript</span>
+                                <span>50%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>React</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>UI/UX Design</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Resume Content Integrated into About Section -->
+                    <div class="resume-content">
+                        <h3 class="resume-section-title">Education</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-header">
+                                    <div class="timeline-year">2016-2020</div>
+                                    <div class="timeline-org">MIT University</div>
+                                </div>
+                                <h4 class="timeline-title">Bachelor of Science information technolgy</h4>
+                                <p class="timeline-desc">Graduated with honors. Specialized in web technologies and UI/UX design principles. Completed capstone project on responsive web frameworks.</p>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-header">
+                                    <div class="timeline-year">2020-2022</div>
+                                    <div class="timeline-org">Stanford University</div>
+                                </div>
+                                <h4 class="timeline-title">Master's in Web Technologies</h4>
+                                <p class="timeline-desc">Focused on advanced JavaScript frameworks and modern development practices. Published research on performance optimization techniques for web applications.</p>
+                            </div>
+                        </div>
+                        
+                        <h3 class="resume-section-title">Experience</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-header">
+                                    <div class="timeline-year">2022-Present</div>
+                                    <div class="timeline-org">Google</div>
+                                </div>
+                                <h4 class="timeline-title">Senior Front-end Developer</h4>
+                                <p class="timeline-desc">Leading front-end development for key projects. Implementing responsive designs and optimizing performance across multiple platforms. Mentoring junior developers.</p>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-header">
+                                    <div class="timeline-year">2020-2022</div>
+                                    <div class="timeline-org">Amazon</div>
+                                </div>
+                                <h4 class="timeline-title">Web Developer</h4>
+                                <p class="timeline-desc">Developed and maintained e-commerce interfaces. Collaborated with UX designers to implement user-friendly features. Improved site performance by 40%.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Services</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <span>🌐</span>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Custom websites built with HTML, CSS, and JavaScript that are responsive, fast, and user-friendly.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <span>🎨</span>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Intuitive and engaging user interfaces with seamless experiences that keep users coming back.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <span>📱</span>
+                    </div>
+                    <h3>Responsive Design</h3>
+                    <p>Websites that look and function perfectly on all devices, from desktops to smartphones.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <span>⚡</span>
+                    </div>
+                    <h3>Performance Optimization</h3>
+                    <p>Improving site speed and performance to enhance user experience and SEO rankings.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Portfolio</h2>
+            </div>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="app">App Development</button>
+                <button class="filter-btn" data-filter="ui">UI/UX Design</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <img src="ecommerce.jpg" alt="Portfolio Item" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3 class="portfolio-title">E-commerce Website</h3>
+                        <p class="portfolio-category">Web Design</p>
+                        <a href="#" class="portfolio-link">View Details</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app">
+                    <img src="fitness.jpeg" alt="Portfolio Item" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3 class="portfolio-title">Fitness Tracker App</h3>
+                        <p class="portfolio-category">App Development</p>
+                        <a href="#" class="portfolio-link">View Details</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ui">
+                    <img src="banking.jpg" alt="Portfolio Item" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3 class="portfolio-title">Banking Dashboard</h3>
+                        <p class="portfolio-category">UI/UX Design</p>
+                        <a href="#" class="portfolio-link">View Details</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <img src="restaurant.jpeg" alt="Portfolio Item" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3 class="portfolio-title">Restaurant Website</h3>
+                        <p class="portfolio-category">Web Design</p>
+                        <a href="#" class="portfolio-link">View Details</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app">
+                    <img src="wheather.jpeg" alt="Portfolio Item" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3 class="portfolio-title">Weather App</h3>
+                        <p class="portfolio-category">App Development</p>
+                        <a href="#" class="portfolio-link">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Me</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <span>📍</span>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Location</h3>
+                            <p>Puerto Princesa City, Palawan, Philippines ,PPC 5300</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <span>📧</span>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Email</h3>
+                            <a href="mailto:contact@example.com">bodesa@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <span>📱</span>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Phone</h3>
+                            <a href="tel:+1234567890">+63 953 086 9265</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <span>🌐</span>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Website</h3>
+                            <a href="https://www.example.com">www.bodesa.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://www.facebook.com/lyzer.bodesa.2024" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/mako_maruu?igsh=MWgyZ2lhYnJjYmU2bA==" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@lyzbudz?_t=ZS-8uJpRrByEMC&_r=1" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+            </div>
+            <p class="copyright">© 2025 My Portfolio.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
